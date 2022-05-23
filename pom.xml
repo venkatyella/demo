@@ -12,6 +12,7 @@
 	<artifactId>maven</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
+	 <url>http://maven.apache.org</url>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -44,6 +45,14 @@
     <artifactId>spring-boot-devtools</artifactId>
     
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.8.2</version>
+    <scope>test</scope>
+</dependency>
+
 <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-resources-plugin -->
  <dependency>
     <groupId>org.apache.maven</groupId>
